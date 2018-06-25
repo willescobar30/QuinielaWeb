@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QW.Data", "QW.Data\QW.Data.
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "QW.Db", "QW.Db\QW.Db.sqlproj", "{20805955-FAFE-489D-B591-0428ADB2BA6F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QW.ExternalApi", "QW.ExternalApi\QW.ExternalApi.csproj", "{1C9BFCC1-6395-4722-B841-5545F2E94F15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{F0CB44AD-F34B-45DE-A544-3FEEEBFA3455}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,14 @@ Global
 		{20805955-FAFE-489D-B591-0428ADB2BA6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20805955-FAFE-489D-B591-0428ADB2BA6F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{20805955-FAFE-489D-B591-0428ADB2BA6F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1C9BFCC1-6395-4722-B841-5545F2E94F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C9BFCC1-6395-4722-B841-5545F2E94F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C9BFCC1-6395-4722-B841-5545F2E94F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C9BFCC1-6395-4722-B841-5545F2E94F15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0CB44AD-F34B-45DE-A544-3FEEEBFA3455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0CB44AD-F34B-45DE-A544-3FEEEBFA3455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0CB44AD-F34B-45DE-A544-3FEEEBFA3455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0CB44AD-F34B-45DE-A544-3FEEEBFA3455}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
