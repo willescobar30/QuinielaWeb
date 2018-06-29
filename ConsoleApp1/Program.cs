@@ -14,7 +14,10 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello World!");
             
-            HttpClientMatch.downloadJSONData();
+           HttpClientMatch.downloadJSONData();
+            Console.ReadKey();
+
+            HttpClientMatch.getAllMatches();
             Console.ReadKey();
         }
     }

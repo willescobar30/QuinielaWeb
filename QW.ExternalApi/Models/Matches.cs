@@ -55,7 +55,7 @@ namespace QW.ExternalApi.Models
         public string name { get; set; }
         public object winner { get; set; }
         public object runnerup { get; set; }
-        public List<Match> matches { get; set; }
+        public List<Match10> matches { get; set; }
     }
 
     public class Match2
@@ -78,7 +78,7 @@ namespace QW.ExternalApi.Models
         public string name { get; set; }
         public object winner { get; set; }
         public object runnerup { get; set; }
-        public List<Match2> matches { get; set; }
+        public List<Match10> matches { get; set; }
     }
 
     public class Match3
@@ -101,7 +101,7 @@ namespace QW.ExternalApi.Models
         public string name { get; set; }
         public object winner { get; set; }
         public object runnerup { get; set; }
-        public List<Match3> matches { get; set; }
+        public List<Match10> matches { get; set; }
     }
 
     public class Match4
@@ -124,7 +124,7 @@ namespace QW.ExternalApi.Models
         public string name { get; set; }
         public object winner { get; set; }
         public object runnerup { get; set; }
-        public List<Match4> matches { get; set; }
+        public List<Match10> matches { get; set; }
     }
 
     public class Match5
@@ -147,7 +147,7 @@ namespace QW.ExternalApi.Models
         public string name { get; set; }
         public object winner { get; set; }
         public object runnerup { get; set; }
-        public List<Match5> matches { get; set; }
+        public List<Match10> matches { get; set; }
     }
 
     public class Match6
@@ -170,7 +170,7 @@ namespace QW.ExternalApi.Models
         public string name { get; set; }
         public object winner { get; set; }
         public object runnerup { get; set; }
-        public List<Match6> matches { get; set; }
+        public List<Match10> matches { get; set; }
     }
 
     public class Match7
@@ -193,7 +193,7 @@ namespace QW.ExternalApi.Models
         public string name { get; set; }
         public object winner { get; set; }
         public object runnerup { get; set; }
-        public List<Match7> matches { get; set; }
+        public List<Match10> matches { get; set; }
     }
 
     public class Match8
@@ -216,7 +216,7 @@ namespace QW.ExternalApi.Models
         public string name { get; set; }
         public object winner { get; set; }
         public object runnerup { get; set; }
-        public List<Match8> matches { get; set; }
+        public List<Match10> matches { get; set; }
     }
 
     public class Groups
@@ -252,7 +252,7 @@ namespace QW.ExternalApi.Models
     public class Round16
     {
         public string name { get; set; }
-        public List<Match9> matches { get; set; }
+        public List<Match10> matches { get; set; }
     }
 
     public class Match10
@@ -300,7 +300,7 @@ namespace QW.ExternalApi.Models
     public class Round4
     {
         public string name { get; set; }
-        public List<Match11> matches { get; set; }
+        public List<Match10> matches { get; set; }
     }
 
     public class Match12
@@ -324,7 +324,7 @@ namespace QW.ExternalApi.Models
     public class Round2Loser
     {
         public string name { get; set; }
-        public List<Match12> matches { get; set; }
+        public List<Match10> matches { get; set; }
     }
 
     public class Match13
@@ -348,7 +348,7 @@ namespace QW.ExternalApi.Models
     public class Round2
     {
         public string name { get; set; }
-        public List<Match13> matches { get; set; }
+        public List<Match10> matches { get; set; }
     }
 
     public class Knockout
